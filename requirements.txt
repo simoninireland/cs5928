@@ -1,0 +1,14 @@
+epydemic >= 1.12.1
+numpy >= 1.18
+scipy
+mpmath
+notebook
+matplotlib
+pandas
+pyright
+pylint
+rope
+flake8
+mypy
+coverage
+black
