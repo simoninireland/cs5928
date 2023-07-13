@@ -63,6 +63,6 @@ make live
 
    This material is written by Prof Simon Dobson
    ([[mailto:simon.dobson@st-andrews.ac.uk][simon.dobson@st-andrews.ac.uk]]) and Dr Peter Mann
-   ([[mailto:pm78@st-andrews.ac.uk][pm78~st-andrews.ac.uk]]).
+   ([[mailto:pm78@st-andrews.ac.uk][pm78@st-andrews.ac.uk]]).
 
    Copyright (c) 2023, University of St Andrews. All rights reserved.
