@@ -62,7 +62,7 @@ make live
 ** Copyright and authorship
 
    This material is written by Prof Simon Dobson
-   (mailto:simon.dobsoin@st-andrews.ac.uk) and Dr Peter Mann
-   (mailto:pm78@st-andrews.ac.uk).
+   ([[mailto:simon.dobson@st-andrews.ac.uk][simon.dobson@st-andrews.ac.uk]]) and Dr Peter Mann
+   ([[mailto:pm78@st-andrews.ac.uk][pm78~st-andrews.ac.uk]]).
 
    Copyright (c) 2023, University of St Andrews. All rights reserved.
