@@ -5,10 +5,3 @@ mpmath
 notebook
 matplotlib
 pandas
-pyright
-pylint
-rope
-flake8
-mypy
-coverage
-black
