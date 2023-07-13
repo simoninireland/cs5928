@@ -6,6 +6,13 @@
 # Notebooks
 SOURCE_NOTEBOOKS = \
 	notebooks/03-simulation/03-networks-in-python.ipynb
+	notebooks/05-network-simulation/08-gillespie.ipynb
+	notebooks/05-network-simulation/09-performance.ipynb
+	notebooks/06-experiments/05-epyc-example.ipynb
+	notebooks/08-simulating-at-scale/05-epyc-parallel.ipynb
+
+# Dirtectory holding generated datasets
+DATASETS = datasets/
 
 
 # ----- Tools -----
@@ -63,8 +70,12 @@ $(VENV):
 	$(VIRTUALENV) $(VENV)
 	$(ACTIVATE) && $(PIP) install -U pip wheel && $(PIP) install -r $(REQUIREMENTS)
 
+# Clean up generated results
+clean:
+	$(RM) $(DATASETS)
+
 # Clean up everything, including the computational environment (which is expensive to rebuild)
-reallyclean:
+reallyclean: clean
 	$(RM) $(VENV)
 
 
@@ -74,6 +85,7 @@ define HELP_MESSAGE
 Available targets:
    make live         run a Jupyter notebook server
    make env          create a development virtual environment
+   make clean        clean up generated results
    make reallyclean  clean up the virtualenv as well
 
 endef
