@@ -1,9 +1,9 @@
 * CS5928: Complex systems and simulation
 
   This repository contains the computational content for the module on
-  complex systems and simulation, part of the Digital MSc in Data
-  Science being offered by the University of St Andrews from Academic
-  Year 2023.
+  complex systems and simulation, part of the [[https://www.st-andrews.ac.uk/subjects/computer-science/data-science/][Digital PGCert/PGDip/MSc
+  in Data Science]] being offered by the [[https://www.st-andrews.ac.uk/][University of St Andrews]] from
+  Academic Year 2023.
 
   If you're taking the module, you don't need to worry about this
   repository as everything is already installed through the virtual
