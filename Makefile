@@ -5,10 +5,10 @@
 
 # Notebooks
 SOURCE_NOTEBOOKS = \
-	notebooks/03-simulation/03-networks-in-python.ipynb
-	notebooks/05-network-simulation/08-gillespie.ipynb
-	notebooks/05-network-simulation/09-performance.ipynb
-	notebooks/06-experiments/05-epyc-example.ipynb
+	notebooks/03-simulation/03-networks-in-python.ipynb \
+	notebooks/05-network-simulation/08-gillespie.ipynb \
+	notebooks/05-network-simulation/09-performance.ipynb \
+	notebooks/06-experiments/05-epyc-example.ipynb \
 	notebooks/08-simulating-at-scale/05-epyc-parallel.ipynb
 
 # Dirtectory holding generated datasets
