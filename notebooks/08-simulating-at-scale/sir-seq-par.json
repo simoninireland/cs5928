@@ -1,0 +1,1189 @@
+{
+    "creator": "Created by epyc, computational experiment management for Python <https://pypi.org/project/epyc/>",
+    "version": "2",
+    "description": "A notebook",
+    "current": "sir-par",
+    "locked": false,
+    "resultsets": {
+        "epyc.resultset.default": {
+            "results": [],
+            "pending-results": {},
+            "description": "Results collected on 2023-07-13 10:06:39.878755",
+            "locked": false
+        },
+        "sir-seq": {
+            "results": [
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.2631578947368421,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.5631499999999998,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:42.152891",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.415538,
+                        "epyc.experiment.setup_time": 0.147603,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:40.589741",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 9e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19744,
+                        "epydemic.monitor.time": 4105.803038383552
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9917,
+                        "epydemic.sir.S": 83
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.5263157894736842,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.535391,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:43.690538",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.428036,
+                        "epyc.experiment.setup_time": 0.107346,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:42.155147",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 9e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19774,
+                        "epydemic.monitor.time": 4543.900972684021
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9935,
+                        "epydemic.sir.S": 65
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.15789473684210525,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.492323,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:45.236734",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.391228,
+                        "epyc.experiment.setup_time": 0.101085,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:43.744411",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19777,
+                        "epydemic.monitor.time": 4169.05547292993
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9939,
+                        "epydemic.sir.S": 61
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.8421052631578947,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.51258,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:46.751402",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.40601,
+                        "epyc.experiment.setup_time": 0.106562,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:45.238822",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19779,
+                        "epydemic.monitor.time": 5364.448110638286
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9938,
+                        "epydemic.sir.S": 62
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.631578947368421,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.527451,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:48.280950",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.370372,
+                        "epyc.experiment.setup_time": 0.15707,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:46.753499",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 9e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19777,
+                        "epydemic.monitor.time": 4790.8893494387285
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9931,
+                        "epydemic.sir.S": 69
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.0,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0.114353,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:48.397353",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 0.010079,
+                        "epyc.experiment.setup_time": 0.104267,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:48.283000",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 7e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 87,
+                        "epydemic.monitor.time": 2026.9267862439522
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 87,
+                        "epydemic.sir.S": 9913
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.05263157894736842,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.541458,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:49.940782",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.434578,
+                        "epyc.experiment.setup_time": 0.106872,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:48.399324",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19718,
+                        "epydemic.monitor.time": 4573.635260508539
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9906,
+                        "epydemic.sir.S": 94
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.3157894736842105,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.489796,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:51.432697",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.390266,
+                        "epyc.experiment.setup_time": 0.099519,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:49.942901",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.1e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19743,
+                        "epydemic.monitor.time": 5666.468622655464
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9924,
+                        "epydemic.sir.S": 76
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.42105263157894735,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.539673,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:52.974395",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.4401,
+                        "epyc.experiment.setup_time": 0.099566,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:51.434722",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 7e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19726,
+                        "epydemic.monitor.time": 5555.813888192822
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9909,
+                        "epydemic.sir.S": 91
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 1.0,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.501447,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:54.477929",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.40005,
+                        "epyc.experiment.setup_time": 0.101389,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:52.976482",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19743,
+                        "epydemic.monitor.time": 4711.212201835571
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9917,
+                        "epydemic.sir.S": 83
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.47368421052631576,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.493974,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:55.973961",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.391915,
+                        "epyc.experiment.setup_time": 0.102051,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:54.479987",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19768,
+                        "epydemic.monitor.time": 4024.6006179178
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9934,
+                        "epydemic.sir.S": 66
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.10526315789473684,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.5846770000000001,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:57.560613",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.421864,
+                        "epyc.experiment.setup_time": 0.162805,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:55.975936",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19729,
+                        "epydemic.monitor.time": 5266.057584905785
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9911,
+                        "epydemic.sir.S": 89
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.21052631578947367,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.460854,
+                        "epyc.experiment.end_time": "2023-07-13T10:01:59.023529",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.360839,
+                        "epyc.experiment.setup_time": 0.100008,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:57.562675",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 7e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19730,
+                        "epydemic.monitor.time": 3987.2018528351387
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9916,
+                        "epydemic.sir.S": 84
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.3684210526315789,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.5316939999999999,
+                        "epyc.experiment.end_time": "2023-07-13T10:02:00.557146",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.381873,
+                        "epyc.experiment.setup_time": 0.149813,
+                        "epyc.experiment.start_time": "2023-07-13T10:01:59.025452",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19743,
+                        "epydemic.monitor.time": 4690.441549990809
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9918,
+                        "epydemic.sir.S": 82
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.7894736842105263,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.488982,
+                        "epyc.experiment.end_time": "2023-07-13T10:02:02.048083",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.390152,
+                        "epyc.experiment.setup_time": 0.098822,
+                        "epyc.experiment.start_time": "2023-07-13T10:02:00.559101",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19791,
+                        "epydemic.monitor.time": 4432.343591070175
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9943,
+                        "epydemic.sir.S": 57
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.7368421052631579,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.565746,
+                        "epyc.experiment.end_time": "2023-07-13T10:02:03.615988",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.454306,
+                        "epyc.experiment.setup_time": 0.111432,
+                        "epyc.experiment.start_time": "2023-07-13T10:02:02.050242",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19768,
+                        "epydemic.monitor.time": 3861.772133741913
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9929,
+                        "epydemic.sir.S": 71
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.894736842105263,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.501062,
+                        "epyc.experiment.end_time": "2023-07-13T10:02:05.119011",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.40031,
+                        "epyc.experiment.setup_time": 0.100744,
+                        "epyc.experiment.start_time": "2023-07-13T10:02:03.617949",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19725,
+                        "epydemic.monitor.time": 5105.056722305543
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9918,
+                        "epydemic.sir.S": 82
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.5789473684210527,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.659269,
+                        "epyc.experiment.end_time": "2023-07-13T10:02:06.780249",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.557387,
+                        "epyc.experiment.setup_time": 0.101874,
+                        "epyc.experiment.start_time": "2023-07-13T10:02:05.120980",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19757,
+                        "epydemic.monitor.time": 5039.758146551233
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9937,
+                        "epydemic.sir.S": 63
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.6842105263157894,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.523754,
+                        "epyc.experiment.end_time": "2023-07-13T10:02:08.306005",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.419336,
+                        "epyc.experiment.setup_time": 0.10441,
+                        "epyc.experiment.start_time": "2023-07-13T10:02:06.782251",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19747,
+                        "epydemic.monitor.time": 5201.092931070864
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9927,
+                        "epydemic.sir.S": 73
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.9473684210526315,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.510035,
+                        "epyc.experiment.end_time": "2023-07-13T10:02:09.818002",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.407206,
+                        "epyc.experiment.setup_time": 0.102821,
+                        "epyc.experiment.start_time": "2023-07-13T10:02:08.307967",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 8e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19753,
+                        "epydemic.monitor.time": 5002.467093711779
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9926,
+                        "epydemic.sir.S": 74
+                    }
+                }
+            ],
+            "pending-results": {},
+            "description": "Sequential simulations of SIR",
+            "locked": false
+        },
+        "sir-par": {
+            "results": [
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.3684210526315789,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 3.06863,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:25.862776",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 2.818576,
+                        "epyc.experiment.setup_time": 0.250038,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.794146",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.6e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19737,
+                        "epydemic.monitor.time": 4847.513472746996
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9918,
+                        "epydemic.sir.S": 82
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.7368421052631579,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 3.054155,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:25.631011",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 2.796653,
+                        "epyc.experiment.setup_time": 0.257485,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.576856",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.7e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19769,
+                        "epydemic.monitor.time": 6487.966101392842
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9929,
+                        "epydemic.sir.S": 71
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.05263157894736842,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 3.067113,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:25.878285",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 2.807839,
+                        "epyc.experiment.setup_time": 0.259254,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.811172",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 2e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19753,
+                        "epydemic.monitor.time": 4504.161722527622
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9927,
+                        "epydemic.sir.S": 73
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.9473684210526315,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.6652939999999998,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:24.283837",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.524517,
+                        "epyc.experiment.setup_time": 0.140764,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.618543",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.3e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19748,
+                        "epydemic.monitor.time": 5349.149998229891
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9930,
+                        "epydemic.sir.S": 70
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.15789473684210525,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.712071,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:24.328446",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.570489,
+                        "epyc.experiment.setup_time": 0.14157,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.616375",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.2e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19766,
+                        "epydemic.monitor.time": 4437.48878132153
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9927,
+                        "epydemic.sir.S": 73
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.8421052631578947,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 3.0266279999999997,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:25.866965",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 2.77892,
+                        "epyc.experiment.setup_time": 0.247693,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.840337",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.5e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19785,
+                        "epydemic.monitor.time": 4913.292506972723
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9938,
+                        "epydemic.sir.S": 62
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.7894736842105263,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 3.04583,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:25.931279",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 2.789923,
+                        "epyc.experiment.setup_time": 0.255887,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.885449",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 2e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19771,
+                        "epydemic.monitor.time": 5386.9121160116265
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9942,
+                        "epydemic.sir.S": 58
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.21052631578947367,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 3.033824,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:25.915905",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 2.784361,
+                        "epyc.experiment.setup_time": 0.249442,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.882081",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 2.1e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19775,
+                        "epydemic.monitor.time": 6726.307549370536
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9928,
+                        "epydemic.sir.S": 72
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.3157894736842105,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.697267,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:24.349950",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.556744,
+                        "epyc.experiment.setup_time": 0.140508,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.652683",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.5e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19743,
+                        "epydemic.monitor.time": 5167.871501047325
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9927,
+                        "epydemic.sir.S": 73
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.894736842105263,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 2.995051,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:25.895860",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 2.747238,
+                        "epyc.experiment.setup_time": 0.247793,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.900809",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 2e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19743,
+                        "epydemic.monitor.time": 4815.968459114357
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9926,
+                        "epydemic.sir.S": 74
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.6842105263157894,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.6379510000000002,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:24.426696",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.502297,
+                        "epyc.experiment.setup_time": 0.135641,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.788745",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.3e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19771,
+                        "epydemic.monitor.time": 4760.729223138436
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9941,
+                        "epydemic.sir.S": 59
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.631578947368421,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 3.0758170000000002,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:26.023991",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 2.827491,
+                        "epyc.experiment.setup_time": 0.248309,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:22.948174",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.7e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19771,
+                        "epydemic.monitor.time": 3856.682355780087
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9926,
+                        "epydemic.sir.S": 74
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.5263157894736842,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.647132,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:25.969766",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.514453,
+                        "epyc.experiment.setup_time": 0.132666,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:24.322634",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.3e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19766,
+                        "epydemic.monitor.time": 4937.207036198278
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9933,
+                        "epydemic.sir.S": 67
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.10526315789473684,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.6602510000000001,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:26.032783",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.530119,
+                        "epyc.experiment.setup_time": 0.130119,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:24.372532",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.3e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19753,
+                        "epydemic.monitor.time": 6239.503167282512
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9921,
+                        "epydemic.sir.S": 79
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.0,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0.139849,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:24.532739",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 0.012701,
+                        "epyc.experiment.setup_time": 0.127138,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:24.392890",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 100,
+                        "epydemic.monitor.time": 1717.6737481552377
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 100,
+                        "epydemic.sir.S": 9900
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.5789473684210527,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.616732,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:26.082742",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.492671,
+                        "epyc.experiment.setup_time": 0.124049,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:24.466010",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.2e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19762,
+                        "epydemic.monitor.time": 6127.059708216586
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9936,
+                        "epydemic.sir.S": 64
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 1.0,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.6480519999999999,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:26.181084",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.522413,
+                        "epyc.experiment.setup_time": 0.125627,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:24.533032",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1.2e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19741,
+                        "epydemic.monitor.time": 6090.941692290064
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9925,
+                        "epydemic.sir.S": 75
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.42105263157894735,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.762543,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:27.452183",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.521785,
+                        "epyc.experiment.setup_time": 0.240749,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:25.689640",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 9e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19758,
+                        "epydemic.monitor.time": 4797.436535957959
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9927,
+                        "epydemic.sir.S": 73
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.2631578947368421,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.70717,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:27.641142",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.51177,
+                        "epyc.experiment.setup_time": 0.195391,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:25.933972",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 9e-06,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19759,
+                        "epydemic.monitor.time": 4492.568384234475
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9933,
+                        "epydemic.sir.S": 67
+                    }
+                },
+                {
+                    "parameters": {
+                        "N": 10000,
+                        "epydemic.sir.pInfect": 0.47368421052631576,
+                        "epydemic.sir.pInfected": 0.01,
+                        "epydemic.sir.pRemove": 0.002,
+                        "kmean": 5,
+                        "topology": "ER"
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 1.611906,
+                        "epyc.experiment.end_time": "2023-07-13T10:12:27.549559",
+                        "epyc.experiment.exception": "",
+                        "epyc.experiment.experiment_time": 1.468945,
+                        "epyc.experiment.setup_time": 0.142951,
+                        "epyc.experiment.start_time": "2023-07-13T10:12:25.937653",
+                        "epyc.experiment.status": true,
+                        "epyc.experiment.teardown_time": 1e-05,
+                        "epyc.experiment.traceback": "",
+                        "epydemic.monitor.events": 19736,
+                        "epydemic.monitor.time": 4359.906447726601
+                    },
+                    "results": {
+                        "epydemic.sir.I": 0,
+                        "epydemic.sir.R": 9922,
+                        "epydemic.sir.S": 78
+                    }
+                }
+            ],
+            "pending-results": {},
+            "description": "Parallel (multicore) simulations of SIR",
+            "locked": false
+        }
+    }
+}
