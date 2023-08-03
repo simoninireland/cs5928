@@ -1,4 +1,4 @@
-epydemic >= 1.12.1
+epydemic >= 1.13.1
 numpy >= 1.18
 scipy
 mpmath
