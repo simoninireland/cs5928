@@ -15,7 +15,7 @@
    Clone this repository to somewhere on your own computer.
 
    #+begin_src shell
-git clone https://gitbub.com/simoninireland/cs5928.git
+git clone https://github.com/simoninireland/cs5928.git
    #+end_src
 
    You then need to build a Python virtual environment (or "venv")
