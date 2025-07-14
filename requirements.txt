@@ -3,5 +3,9 @@ numpy >= 1.18
 scipy
 mpmath
 notebook
+nbclassic
+jupyter-server-fileid
+jupyter_server_ydoc
 matplotlib
 pandas
+python-language-server
