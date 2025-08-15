@@ -116,3 +116,6 @@ datasets/
 
 # Sphinx build docs
 doc/_build/
+
+# Jupyter stuff
+.jupyter_ystore.db
